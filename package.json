@@ -1,0 +1,33 @@
+{
+  "name": "xlf-source-to-target",
+  "version": "1.0.0",
+  "description": "Use the xlf source tag as the target tag",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "bin": "dist/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node lib/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "xlf",
+    "angular",
+    "i18n"
+  ],
+  "author": "Marius Lichtblau",
+  "license": "ISC",
+  "dependencies": {
+    "@types/xml2js": "^0.4.3",
+    "commander": "^2.16.0",
+    "core-js": "^2.5.7",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "typescript": "^2.9.2"
+  }
+}
